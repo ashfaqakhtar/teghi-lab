@@ -133,16 +133,17 @@ include "header.php";
                 </div>
             </div>
 
+            <!-- Biochemistry Test -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card lft-card h-100">
                     <div class="card-body d-flex flex-column">
 
                         <!-- Test Category Title -->
-                        <h5 class="card-title">Hematology Test</h5>
+                        <h5 class="card-title">Biochemistry Test</h5>
 
                         <!-- Meta Info -->
                         <div class="mb-2 text-muted small">
-                            <p class="mb-1 list-font"><strong>Total Tests:</strong> 15</p>
+                            <p class="mb-1 list-font"><strong>Total Tests:</strong> 33</p>
                             <p class="mb-1 list-font"><strong>Sample:</strong> Blood</p>
                             <p class="mb-1 list-font"><strong>Fasting:</strong> Not Required</p>
                             <p class="mb-1 list-font"><strong>Test Price:</strong> 999/-</p>
@@ -151,13 +152,13 @@ include "header.php";
 
                         <!-- Test List (Optional preview only) -->
                         <ul class="lft-list small mb-3">
-                            <li>CBC</li>
-                            <li>ESR</li>
-                            <li>Hb</li>
+                            <li>Blood Sugar Fasting</li>
+                            <li>Blood Sugar PP</li>
+                            <li>Blood Sugar Post Glucose</li>
                         </ul>
 
                         <div class="mt-auto">
-                            <a href="hematology-test" class="btn btn-outline-primary w-100 mb-2">
+                            <a href="biochemistry-test" class="btn btn-outline-primary w-100 mb-2">
                                 Read More
                             </a>
 

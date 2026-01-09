@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/lightcase.css">
     <link rel="stylesheet" href="css/preloader.css">
+    
 
     <!-- Revolution Slider Setting CSS -->
     <link rel="stylesheet" href="css/settings.css">
@@ -70,7 +71,7 @@
                         <ul>
                             <li><a href="/">Home</a></li>
                             <li><a href="about">About</a></li>
-                            <li><a href="#">Packages</a></li>
+                            <li><a href="packages">Packages</a></li>
                             <li><a href="contact">Contact</a></li>
                         </ul>
                     </nav>

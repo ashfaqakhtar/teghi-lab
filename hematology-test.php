@@ -8,9 +8,9 @@ include "header.php";
 
 <section class="banner-section-background">
     <div class="container hero-content">
-        <div class="row">
+        <div class="row flex-column-reverse flex-lg-row">
             <div class="col-lg-7 col-md-12 hero-heading-box banner-box-position">
-                <h1 class="heading-1">Hematology Tests</h1>
+                <h1 class="banner-heading">Hematology Tests</h1>
                 <p class="sub-heading">Comprehensive blood tests to evaluate overall health, detect disorders, and
                     monitor blood-related conditions.</p>
             </div>
@@ -23,9 +23,7 @@ include "header.php";
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 about-section">
-                <img class="img-fluid" src="./images/hematology.webp" alt="">
-            </div>
+           
             <div class="col-lg-6 about-section-text ">
                 <h3 class="section-heading">About The Test</h3>
                 <p class="section-para">
@@ -38,6 +36,9 @@ include "header.php";
                 <p class="section-para">These tests play a crucial role in early diagnosis and timely treatment of
                     blood-related conditions.
                 </p>
+            </div>
+             <div class="col-lg-6 about-section">
+                <img class="img-fluid" src="./images/hematology.webp" alt="">
             </div>
         </div>
     </div>
@@ -146,7 +147,7 @@ include "header.php";
                         <p class="mb-1 heading-4">
                             Call us for Home Collection
                         </p>
-                        <div class="d-flex" style="gap:10px">
+                        <div class="d-flex book-apnmt-section-btn" style="gap:10px">
                             <a href="tel:+919892760973" class="btn button-primary w-25">
                                 <i class="fa fa-phone"></i> Call
                             </a>

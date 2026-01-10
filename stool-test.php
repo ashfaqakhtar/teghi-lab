@@ -10,7 +10,7 @@ include "header.php";
     <div class="container hero-content">
         <div class="row">
             <div class="col-lg-7 col-md-12 hero-heading-box banner-box-position">
-                <h1 class="heading-1">Stool Test</h1>
+                <h1 class="banner-heading">Stool Test</h1>
                 <p class="sub-heading">Stool tests used to evaluate digestive health, detect intestinal infections,
                     parasites, inflammation, and gastrointestinal disorders.
                 </p>
@@ -24,9 +24,6 @@ include "header.php";
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 about-section">
-                <img class="img-fluid" src="./images/hematology.webp" alt="">
-            </div>
             <div class="col-lg-6 about-section-text ">
                 <h3 class="section-heading">About The Test</h3>
                 <p class="section-para">
@@ -41,6 +38,9 @@ include "header.php";
                     gastrointestinal
                     evaluation, and early detection of serious conditions affecting the digestive tract.
                 </p>
+            </div>
+            <div class="col-lg-6 about-section">
+                <img class="img-fluid" src="./images/hematology.webp" alt="">
             </div>
         </div>
     </div>
@@ -90,7 +90,7 @@ include "header.php";
                 <h3 class="mb-3 section-heading">Who Should Take This Test?</h3>
                 <ul>
                     <li class="list-font">Individuals with digestive problems such as diarrhea or constipation </li>
-                    <li class="list-font">People experiencing abdominal pain, bloating, or indigestion  </li>
+                    <li class="list-font">People experiencing abdominal pain, bloating, or indigestion </li>
                     <li class="list-font">Patients with suspected intestinal infections or parasitic infestations</li>
                     <li class="list-font">Individuals with blood in stool or unexplained anemia</li>
                     <li class="list-font">Routine digestive health screening </li>
@@ -142,7 +142,7 @@ include "header.php";
                         <p class="mb-1 heading-4">
                             Call us for Home Collection
                         </p>
-                        <div class="d-flex" style="gap:10px">
+                        <div class="d-flex book-apnmt-section-btn" style="gap:10px">
                             <a href="tel:+919892760973" class="btn button-primary w-25">
                                 <i class="fa fa-phone"></i> Call
                             </a>

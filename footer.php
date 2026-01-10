@@ -19,7 +19,7 @@
                         </div>
                         <div class="cwcInfo">
                             <i class="laf-A8AIr201"></i>
-                           Parksite Colony, Vikhroli West, Mumbai
+                            Parksite Colony, Vikhroli West, Mumbai
                         </div>
                     </div>
                 </aside>
@@ -58,6 +58,18 @@
             </div>
         </div>
     </div>
+
+    
+    <div class="mobile-sticky-cta d-lg-none">
+        <a href="tel:+919892760973" class="btn button-primary w-50">
+            <i class="fa fa-phone"></i> Call Us
+        </a>
+        <a href="https://wa.me/919892760973" target="_blank" class="btn button-whatsapp w-50">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+    </div>
+
+
 </footer>
 <!-- Section End -->
 

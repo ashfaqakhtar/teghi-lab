@@ -10,7 +10,7 @@ include "header.php";
     <div class="container hero-content">
         <div class="row">
             <div class="col-lg-7 col-md-12 hero-heading-box banner-box-position">
-                <h1 class="heading-1">Hepatitis Markers</h1>
+                <h1 class="banner-heading">Hepatitis Markers</h1>
                 <p class="sub-heading">Blood tests used to detect and monitor hepatitis virus infections affecting the
                     liver,
                     including Hepatitis A, B, C, D, and E.
@@ -26,9 +26,6 @@ include "header.php";
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 about-section">
-                <img class="img-fluid" src="./images/hematology.webp" alt="">
-            </div>
             <div class="col-lg-6 about-section-text ">
                 <h3 class="section-heading">About The Test</h3>
                 <p class="section-para">
@@ -43,6 +40,9 @@ include "header.php";
                     management, screening of high-risk individuals, and preventing transmission of
                     hepatitis infections.
                 </p>
+            </div>
+            <div class="col-lg-6 about-section">
+                <img class="img-fluid" src="./images/hematology.webp" alt="">
             </div>
         </div>
     </div>
@@ -104,11 +104,12 @@ include "header.php";
                 <h3 class="mb-3 section-heading">Who Should Take This Test?</h3>
                 <ul>
                     <li class="list-font">Individuals with symptoms of liver disease such as jaundice or fatigue </li>
-                    <li class="list-font">People with abnormal liver function test (LFT) results  </li>
+                    <li class="list-font">People with abnormal liver function test (LFT) results </li>
                     <li class="list-font">Individuals with suspected or known hepatitis infection </li>
                     <li class="list-font">Pregnant women and blood donors as part of screening </li>
-                    <li class="list-font">Healthcare workers or individuals at high risk of exposure  </li>
-                    <li class="list-font">Routine health screening or pre-surgical evaluation as advised by doctors </li>
+                    <li class="list-font">Healthcare workers or individuals at high risk of exposure </li>
+                    <li class="list-font">Routine health screening or pre-surgical evaluation as advised by doctors
+                    </li>
                 </ul>
             </div>
             <div class="col-lg-6 who-should-take-image">
@@ -156,7 +157,7 @@ include "header.php";
                         <p class="mb-1 heading-4">
                             Call us for Home Collection
                         </p>
-                        <div class="d-flex" style="gap:10px">
+                        <div class="d-flex book-apnmt-section-btn" style="gap:10px">
                             <a href="tel:+919892760973" class="btn button-primary w-25">
                                 <i class="fa fa-phone"></i> Call
                             </a>

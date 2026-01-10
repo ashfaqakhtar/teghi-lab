@@ -10,7 +10,7 @@ include "header.php";
     <div class="container hero-content">
         <div class="row">
             <div class="col-lg-7 col-md-12 hero-heading-box banner-box-position">
-                <h1 class="heading-1">Biochemistry Test</h1>
+                <h1 class="banner-heading">Biochemistry Test</h1>
                 <p class="sub-heading">Blood tests that analyze chemicals in the blood to assess organ function,
                     metabolism, and overall health.
                 </p>
@@ -24,9 +24,6 @@ include "header.php";
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 about-section">
-                <img class="img-fluid" src="./images/hematology.webp" alt="">
-            </div>
             <div class="col-lg-6 about-section-text ">
                 <h3 class="section-heading">About The Test</h3>
                 <p class="section-para">
@@ -41,6 +38,9 @@ include "header.php";
                     monitoring, and treatment planning, enabling early detection and timely medical
                     intervention.
                 </p>
+            </div>
+            <div class="col-lg-6 about-section">
+                <img class="img-fluid" src="./images/hematology.webp" alt="">
             </div>
         </div>
     </div>
@@ -178,7 +178,7 @@ include "header.php";
                         <p class="mb-1 heading-4">
                             Call us for Home Collection
                         </p>
-                        <div class="d-flex" style="gap:10px">
+                        <div class="d-flex book-apnmt-section-btn" style="gap:10px">
                             <a href="tel:+919892760973" class="btn button-primary w-25">
                                 <i class="fa fa-phone"></i> Call
                             </a>

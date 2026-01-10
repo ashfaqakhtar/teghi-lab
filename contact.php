@@ -6,17 +6,12 @@ include "header.php";
 ?>
 
 
-<section class="banner-section">
-
-    <video class="hero-video" autoplay muted loop playsinline>
-        <source src="./videos/contact-page.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+<section class="banner-section-contact">
 
     <div class="container hero-content">
         <div class="row">
             <div class="col-lg-7 col-md-12 hero-heading-box banner-box-position">
-                <h1 class="heading-1">Contact us</h1>
+                <h1 class="banner-heading">Contact us</h1>
                 <p class="sub-heading">Get in touch with us for test bookings, queries, and support.</p>
             </div>
         </div>
@@ -51,6 +46,17 @@ include "header.php";
                         <p>+91 9892770973</p>
                     </div>
                 </div>
+
+                <div class="contact-info-box">
+                    <div>
+                        <i class="fa-brands fa-whatsapp logo-color"></i>
+                    </div>
+                    <div>
+                        <h6 class="heading-4">WhatsApp</h6>
+                        <p>+91 9892770973</p>
+                    </div>
+                </div>
+
 
                 <div class="contact-info-box">
                     <div>
@@ -92,6 +98,25 @@ include "header.php";
 </section>
 
 
+<style>
+    .banner-section-contact {
+
+        background: url('./images/contact-page-banner.webp') no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .banner-section-contact::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.45);
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(6px);
+        z-index: 1;
+    }
+</style>
 
 <?php
 include 'footer.php';

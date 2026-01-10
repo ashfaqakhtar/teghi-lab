@@ -42,19 +42,7 @@
     <!-- Favicon Icon -->
 </head>
 
-<!-- Preloader Start -->
-<div class="preloader clock text-center">
-    <div class="labfloxLoader">
-        <div class="loaderO">
-            <span>T</span>
-            <span>E</span>
-            <span>G</span>
-            <span>H</span>
-            <span>I</span>
-        </div>
-    </div>
-</div>
-<!-- Preloader End -->
+
 
 
 <!-- Header Start -->
@@ -64,12 +52,11 @@
             <div class="col-lg-12">
                 <div class="navArea">
                     <div class="logo">
-                        <a href="index.html"><img src="images/logo-v4.png" alt="Labflox" /></a>
+                        <a href="/"><img src="images/logo-v4.png" alt="Labflox" /></a>
                     </div>
 
                     <nav class="mainMenu" id="mainMenu">
                         <ul>
-                            <li><a href="/">Home</a></li>
                             <li><a href="about">About</a></li>
                             <li><a href="packages">Packages</a></li>
                             <li><a href="contact">Contact</a></li>

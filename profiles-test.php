@@ -10,7 +10,7 @@ include "header.php";
     <div class="container hero-content">
         <div class="row">
             <div class="col-lg-7 col-md-12 hero-heading-box banner-box-position">
-                <h1 class="heading-1">Profiles Test</h1>
+                <h1 class="banner-heading">Profiles Test</h1>
                 <p class="sub-heading">Comprehensive health profiles that combine multiple blood tests to assess overall
                     health, detect diseases early, and monitor vital organ functions.
                 </p>
@@ -24,9 +24,6 @@ include "header.php";
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 about-section">
-                <img class="img-fluid" src="./images/hematology.webp" alt="">
-            </div>
             <div class="col-lg-6 about-section-text ">
                 <h3 class="section-heading">About The Test</h3>
                 <p class="section-para">
@@ -41,6 +38,9 @@ include "header.php";
                     and early detection of medical conditions, enabling timely medical intervention
                     and effective treatment planning.
                 </p>
+            </div>
+            <div class="col-lg-6 about-section">
+                <img class="img-fluid" src="./images/hematology.webp" alt="">
             </div>
         </div>
     </div>
@@ -104,11 +104,13 @@ include "header.php";
                 <h3 class="mb-3 section-heading">Who Should Take This Test?</h3>
                 <ul>
                     <li class="list-font">Individuals undergoing routine or preventive health checkups </li>
-                    <li class="list-font">People with lifestyle-related conditions such as diabetes or hypertension </li>
-                    <li class="list-font">Individuals with a family history of heart, kidney, or metabolic disorders </li>
+                    <li class="list-font">People with lifestyle-related conditions such as diabetes or hypertension
+                    </li>
+                    <li class="list-font">Individuals with a family history of heart, kidney, or metabolic disorders
+                    </li>
                     <li class="list-font">Patients requiring comprehensive pre-operative or prenatal screening</li>
                     <li class="list-font">Individuals looking for complete health evaluation in a single package</li>
-                    <li class="list-font">Anyone advised profile testing by their doctor  </li>
+                    <li class="list-font">Anyone advised profile testing by their doctor </li>
                 </ul>
             </div>
             <div class="col-lg-6 who-should-take-image">
@@ -156,7 +158,7 @@ include "header.php";
                         <p class="mb-1 heading-4">
                             Call us for Home Collection
                         </p>
-                        <div class="d-flex" style="gap:10px">
+                        <div class="d-flex book-apnmt-section-btn" style="gap:10px">
                             <a href="tel:+919892760973" class="btn button-primary w-25">
                                 <i class="fa fa-phone"></i> Call
                             </a>

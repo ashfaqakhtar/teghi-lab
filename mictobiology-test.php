@@ -10,7 +10,7 @@ include "header.php";
     <div class="container hero-content">
         <div class="row">
             <div class="col-lg-7 col-md-12 hero-heading-box banner-box-position">
-                <h1 class="heading-1">Micro Biology Test</h1>
+                <h1 class="banner-heading">Micro Biology Test</h1>
                 <p class="sub-heading">Laboratory tests used to detect and identify bacteria, fungi, and other
                     microorganisms causing infections in the body.
 
@@ -25,9 +25,6 @@ include "header.php";
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 about-section">
-                <img class="img-fluid" src="./images/hematology.webp" alt="">
-            </div>
             <div class="col-lg-6 about-section-text ">
                 <h3 class="section-heading">About The Test</h3>
                 <p class="section-para">
@@ -41,6 +38,9 @@ include "header.php";
                     monitoring treatment response, and preventing the spread of infections through
                     accurate and timely diagnosis.
                 </p>
+            </div>
+            <div class="col-lg-6 about-section">
+                <img class="img-fluid" src="./images/hematology.webp" alt="">
             </div>
         </div>
     </div>
@@ -89,11 +89,11 @@ include "header.php";
             <div class="col-lg-6 about-section-text">
                 <h3 class="mb-3 section-heading">Who Should Take This Test?</h3>
                 <ul>
-                    <li class="list-font">Patients with suspected bacterial or fungal infections  </li>
+                    <li class="list-font">Patients with suspected bacterial or fungal infections </li>
                     <li class="list-font">Individuals with persistent fever or recurrent infections </li>
                     <li class="list-font">Patients not responding to routine antibiotic treatment </li>
                     <li class="list-font">Individuals with suspected bloodstream or systemic infections </li>
-                    <li class="list-font">Patients advised culture and sensitivity testing by doctors  </li>
+                    <li class="list-font">Patients advised culture and sensitivity testing by doctors </li>
                     <li class="list-font">Pre-surgical or diagnostic evaluation for infectious diseases</li>
                 </ul>
             </div>
@@ -142,7 +142,7 @@ include "header.php";
                         <p class="mb-1 heading-4">
                             Call us for Home Collection
                         </p>
-                        <div class="d-flex" style="gap:10px">
+                        <div class="d-flex book-apnmt-section-btn" style="gap:10px">
                             <a href="tel:+919892760973" class="btn button-primary w-25">
                                 <i class="fa fa-phone"></i> Call
                             </a>

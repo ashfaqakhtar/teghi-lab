@@ -10,7 +10,7 @@ include "header.php";
     <div class="container hero-content">
         <div class="row">
             <div class="col-lg-7 col-md-12 hero-heading-box banner-box-position">
-                <h1 class="heading-1">Other Body Fluid Examination</h1>
+                <h1 class="banner-heading">Other Body Fluid Examination</h1>
                 <p class="sub-heading">Laboratory tests performed on various body fluids to detect infections,
                     inflammation, malignancy, and other medical conditions.
                 </p>
@@ -24,9 +24,6 @@ include "header.php";
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 about-section">
-                <img class="img-fluid" src="./images/hematology.webp" alt="">
-            </div>
             <div class="col-lg-6 about-section-text ">
                 <h3 class="section-heading">About The Test</h3>
                 <p class="section-para">
@@ -41,6 +38,9 @@ include "header.php";
                     respiratory, cardiac, and reproductive system conditions, supporting accurate
                     diagnosis and effective treatment planning.
                 </p>
+            </div>
+            <div class="col-lg-6 about-section">
+                <img class="img-fluid" src="./images/hematology.webp" alt="">
             </div>
         </div>
     </div>
@@ -60,7 +60,7 @@ include "header.php";
         <div class="row mt-2 test-list">
             <div class="col-lg-6">
                 <ul>
-                    <li>CSF (Cerebrospinal Fluid Examination)  </li>
+                    <li>CSF (Cerebrospinal Fluid Examination) </li>
                     <li>Pleural Fluid Examination</li>
                     <li>Pericardial Fluid Examination</li>
 
@@ -97,7 +97,7 @@ include "header.php";
                     <li class="list-font">Individuals with neurological symptoms requiring CSF analysis</li>
                     <li class="list-font">Patients with fluid accumulation in chest or abdomen</li>
                     <li class="list-font">People with respiratory symptoms requiring sputum examination</li>
-                    <li class="list-font">Individuals undergoing fertility or reproductive health evaluation  </li>
+                    <li class="list-font">Individuals undergoing fertility or reproductive health evaluation </li>
                     <li class="list-font">Pre-surgical or diagnostic medical evaluation as advised by doctors</li>
                 </ul>
             </div>
@@ -146,7 +146,7 @@ include "header.php";
                         <p class="mb-1 heading-4">
                             Call us for Home Collection
                         </p>
-                        <div class="d-flex" style="gap:10px">
+                        <div class="d-flex book-apnmt-section-btn" style="gap:10px">
                             <a href="tel:+919892760973" class="btn button-primary w-25">
                                 <i class="fa fa-phone"></i> Call
                             </a>

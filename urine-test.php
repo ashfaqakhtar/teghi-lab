@@ -10,7 +10,7 @@ include "header.php";
     <div class="container hero-content">
         <div class="row">
             <div class="col-lg-7 col-md-12 hero-heading-box banner-box-position">
-                <h1 class="heading-1">Urine Test</h1>
+                <h1 class="banner-heading">Urine Test</h1>
                 <p class="sub-heading">Urine tests used to evaluate kidney function, detect infections, metabolic
                     disorders,
                     and monitor overall urinary and systemic health.
@@ -26,9 +26,6 @@ include "header.php";
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 about-section">
-                <img class="img-fluid" src="./images/hematology.webp" alt="">
-            </div>
             <div class="col-lg-6 about-section-text ">
                 <h3 class="section-heading">About The Test</h3>
                 <p class="section-para">
@@ -39,11 +36,14 @@ include "header.php";
                 <p class="section-para">These tests help diagnose conditions such as kidney disease, diabetes, liver
                     disorders, electrolyte imbalance, and dehydration. Urine analysis also plays an
                     important role in monitoring chronic illnesses and treatment effectiveness.</p>
-                <p class="section-para">Urine testing is commonly used in routine health checkups, preventive screening,
-                    and medical evaluations, providing valuable insights into overall health with
-                    non-invasive sample collection.
-                </p>
-            </div>
+                    <p class="section-para">Urine testing is commonly used in routine health checkups, preventive screening,
+                        and medical evaluations, providing valuable insights into overall health with
+                        non-invasive sample collection.
+                    </p>
+                </div>
+                <div class="col-lg-6 about-section">
+                    <img class="img-fluid" src="./images/hematology.webp" alt="">
+                </div>
         </div>
     </div>
 
@@ -153,7 +153,7 @@ include "header.php";
                         <p class="mb-1 heading-4">
                             Call us for Home Collection
                         </p>
-                        <div class="d-flex" style="gap:10px">
+                        <div class="d-flex book-apnmt-section-btn" style="gap:10px">
                             <a href="tel:+919892760973" class="btn button-primary w-25">
                                 <i class="fa fa-phone"></i> Call
                             </a>

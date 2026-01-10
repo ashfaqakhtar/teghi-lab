@@ -1,7 +1,7 @@
 <?php
-$title = "Teghi Clinical Laboratory";
-$meta = "";
-$metakeyword = "";
+$title = "Teghi Clinical Laboratory | Pathology Lab & Diagnostic Tests in Mumbai";
+$meta = "Looking for a reliable pathology lab in Mumbai? Teghi Clinical Laboratory offers accurate blood tests, health checkup packages, hormone tests, and home sample collection at affordable prices.";
+$metakeyword = "pathology lab in mumbai, diagnostic center near me, blood test lab, urine test, hormone test, thyroid test, diabetes test, lipid profile, liver function test, kidney function test, home sample collection mumbai";
 include "header.php";
 ?>
 
@@ -13,7 +13,7 @@ include "header.php";
         Your browser does not support the video tag.
     </video>
 
-    <div class="container hero-content" >
+    <div class="container hero-content">
         <div class="row">
             <div class="col-lg-7 col-md-12 hero-heading-box">
                 <h1 class="heading-1">Accurate Diagnostics. Trusted Care.</h1>
@@ -21,20 +21,24 @@ include "header.php";
                 </p>
 
                 <div class="hero-section-btn">
-                    <a class="button-primary" href="#">Our Packages</a>
+                    <a class="button-primary" href="packages">Our Packages</a>
                 </div>
             </div>
 
             <div class="col-lg-5 col-md-12">
-                <?php
-                include "contact-form.php";
-                ?>
+                <div class="hero-banner-contact">
+                    <?php
+                    include "contact-form.php";
+                    ?>
+                </div>
             </div>
 
 
         </div>
     </div>
 </section>
+
+<div class="spacing"></div>
 
 <!-- Slider End -->
 
@@ -53,10 +57,10 @@ include "header.php";
             </div>
             <div class="col-lg-12 col-xl-7">
                 <div class="serviceArea">
-                    <h2>Our Services</h2>
+                    <h2>Our Diagnostic Services</h2>
                     <div class="serviceSlider owl-carousel">
                         <div class="singleService01">
-                            <img src="./images/service-test.jpg" alt="Blood Test" />
+                            <img src="./images/blood-test.webp" alt="Blood Test" />
                             <div class="ss01Content">
                                 <i class="laf-GA9M8J01"></i>
                                 <h3>All Types of Blood Test</h3>
@@ -66,17 +70,18 @@ include "header.php";
                             </div>
                         </div>
                         <div class="singleService01">
-                            <img src="./images/service-test.jpg" alt="ECG Check" />
+                            <img style="height:524px;" class="img-fluid" src="./images/ecg-image.jpg" alt="ECG Check" />
                             <div class="ss01Content">
                                 <i class="laf-Yk7aBo01"></i>
-                                <h3><a href="service-single.html">ECG & BP Check</a></h3>
+                                <h3><a href="service-single.html">ECG & BP <br> Check</a></h3>
                                 <p>
                                     Our qualified and ardent team of technologists provide
                                 </p>
                             </div>
                         </div>
                         <div class="singleService01">
-                            <img src="./images/service-test.jpg" alt="" />
+                            <img style="height:524px;" src="./images/sample-collection.webp"
+                                alt="Home Sample Collection" />
                             <div class="ss01Content">
                                 <i class="laf-MjY3z001"></i>
                                 <h3><a href="service-single.html">Home Sample Collection</a></h3>
@@ -101,7 +106,7 @@ include "header.php";
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h5 class="secSubTitle2 heebo">Test Categories</h5>
-                <h2 class="secTitle">Specialty Testing For Everyone</h2>
+                <h2 class="secTitle">Specialized Diagnostic Tests for Every Need</h2>
             </div>
         </div>
         <div class="row">
@@ -144,167 +149,15 @@ include "header.php";
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row mt-5">
-
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card lft-card h-100">
-                    <div class="card-body d-flex flex-column">
-
-                        <!-- Title -->
-                        <h5 class="card-title">Liver Function Test (LFT)</h5>
-
-                        <!-- Short Description -->
-                        <p class="card-text">
-                            A comprehensive blood test to assess liver health and detect liver-related conditions.
-                        </p>
-
-                        <!-- Test List -->
-                        <ul class="lft-list mb-3">
-                            <li>Total Bilirubin</li>
-                            <li>Direct Bilirubin</li>
-                            <li>Indirect Bilirubin</li>
-                            <li>SGOT (AST)</li>
-                            <li>SGPT (ALT)</li>
-                            <li>Alkaline Phosphatase (ALP)</li>
-                            <li>Total Protein</li>
-                            <li>Albumin</li>
-                            <li>Globulin</li>
-                            <li>A/G Ratio</li>
-                        </ul>
-
-                        <!-- Test Info -->
-                        <div class="test-info mb-3">
-                            <p><strong>Sample:</strong> Blood</p>
-                            <p><strong>Fasting:</strong> 8–10 Hours</p>
-                            <p><strong>Report Time:</strong> Same Day / 24 Hours</p>
-                        </div>
-
-                        <!-- Spacer -->
-                        <div class="mt-auto"></div>
-
-                        <!-- Book Test Buttons -->
-                        <div class="d-flex">
-                            <a href="tel:+919892760973" class="btn button-primary w-50 mr-2">
-                                <i class="fa fa-phone"></i> Call
-                            </a>
-
-                            <a href="https://wa.me/919892760973" target="_blank" class="btn button-whatsapp w-50">
-                                <i class="fa-brands fa-whatsapp"></i> WhatsApp
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card lft-card h-100">
-                    <div class="card-body d-flex flex-column">
-
-                        <!-- Title -->
-                        <h5 class="card-title">Liver Function Test (LFT)</h5>
-
-                        <!-- Short Description -->
-                        <p class="card-text">
-                            A comprehensive blood test to assess liver health and detect liver-related conditions.
-                        </p>
-
-                        <!-- Test List -->
-                        <ul class="lft-list mb-3">
-                            <li>Total Bilirubin</li>
-                            <li>Direct Bilirubin</li>
-                            <li>Indirect Bilirubin</li>
-                            <li>SGOT (AST)</li>
-                            <li>SGPT (ALT)</li>
-                            <li>Alkaline Phosphatase (ALP)</li>
-                            <li>Total Protein</li>
-                            <li>Albumin</li>
-                            <li>Globulin</li>
-                            <li>A/G Ratio</li>
-                        </ul>
-
-                        <!-- Test Info -->
-                        <div class="test-info mb-3">
-                            <p><strong>Sample:</strong> Blood</p>
-                            <p><strong>Fasting:</strong> 8–10 Hours</p>
-                            <p><strong>Report Time:</strong> Same Day / 24 Hours</p>
-                        </div>
-
-                        <!-- Spacer -->
-                        <div class="mt-auto"></div>
-
-                        <!-- Book Test Buttons -->
-                        <div class="d-flex">
-                            <a href="tel:+919892760973" class="btn button-primary w-50 mr-2">
-                                <i class="fa fa-phone"></i> Call
-                            </a>
-
-                            <a href="https://wa.me/919892760973" target="_blank" class="btn button-whatsapp w-50">
-                                <i class="fa-brands fa-whatsapp"></i> WhatsApp
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card lft-card h-100">
-                    <div class="card-body d-flex flex-column">
-
-                        <!-- Title -->
-                        <h5 class="card-title">Liver Function Test (LFT)</h5>
-
-                        <!-- Short Description -->
-                        <p class="card-text">
-                            A comprehensive blood test to assess liver health and detect liver-related conditions.
-                        </p>
-
-                        <!-- Test List -->
-                        <ul class="lft-list mb-3">
-                            <li>Total Bilirubin</li>
-                            <li>Direct Bilirubin</li>
-                            <li>Indirect Bilirubin</li>
-                            <li>SGOT (AST)</li>
-                            <li>SGPT (ALT)</li>
-                            <li>Alkaline Phosphatase (ALP)</li>
-                            <li>Total Protein</li>
-                            <li>Albumin</li>
-                            <li>Globulin</li>
-                            <li>A/G Ratio</li>
-                        </ul>
-
-                        <!-- Test Info -->
-                        <div class="test-info mb-3">
-                            <p><strong>Sample:</strong> Blood</p>
-                            <p><strong>Fasting:</strong> 8–10 Hours</p>
-                            <p><strong>Report Time:</strong> Same Day / 24 Hours</p>
-                        </div>
-
-                        <!-- Spacer -->
-                        <div class="mt-auto"></div>
-
-                        <!-- Book Test Buttons -->
-                        <div class="d-flex">
-                            <a href="tel:+919892760973" class="btn button-primary w-50 mr-2">
-                                <i class="fa fa-phone"></i> Call
-                            </a>
-
-                            <a href="https://wa.me/919892760973" target="_blank" class="btn button-whatsapp w-50">
-                                <i class="fa-brands fa-whatsapp"></i> WhatsApp
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-
 
         </div>
+        <div class="row">
+            <div class="col-lg-12 explore-test-cta">
+                <a class="button-primary" href="packages">Explore All Diagnostic Tests</a>
+            </div>
+        </div>
+
+
     </div>
 </section>
 <!-- Test Categories End -->

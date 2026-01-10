@@ -18,7 +18,7 @@ Thumbs.db
 # Build / dist
 dist/
 build/
-/videos
+
 
 # Coverage
 coverage/

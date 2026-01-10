@@ -11,7 +11,7 @@ include "header.php";
     <div class="container hero-content">
         <div class="row">
             <div class="col-lg-7 col-md-12 hero-heading-box banner-box-position">
-                <h1 class="heading-1">Health Checkup Packages</h1>
+                <h1 class="banner-heading">Health Checkup Packages</h1>
                 <p class="sub-heading">Comprehensive diagnostic packages designed for accurate results, preventive care,
                     and complete peace of mind.</p>
             </div>
@@ -66,7 +66,7 @@ include "header.php";
                                 Read More
                             </a>
 
-                            <div class="d-flex d-lg-none gap-2">
+                            <div class="d-flex d-lg-none gap-2 connect-box">
                                 <a href="tel:+919892760973" class="btn button-primary w-50">
                                     <i class="fa fa-phone"></i> Call
                                 </a>
@@ -114,7 +114,7 @@ include "header.php";
                                 Read More
                             </a>
 
-                            <div class="d-flex d-lg-none gap-2">
+                            <div class="d-flex d-lg-none gap-2 connect-box">
                                 <a href="tel:+919892760973" class="btn button-primary w-50">
                                     <i class="fa fa-phone"></i> Call
                                 </a>
@@ -162,7 +162,7 @@ include "header.php";
                                 Read More
                             </a>
 
-                            <div class="d-flex d-lg-none gap-2">
+                            <div class="d-flex d-lg-none gap-2 connect-box">
                                 <a href="tel:+919892760973" class="btn button-primary w-50">
                                     <i class="fa fa-phone"></i> Call
                                 </a>
@@ -210,7 +210,7 @@ include "header.php";
                                 Read More
                             </a>
 
-                            <div class="d-flex d-lg-none gap-2">
+                            <div class="d-flex d-lg-none gap-2 connect-box">
                                 <a href="tel:+919892760973" class="btn button-primary w-50">
                                     <i class="fa fa-phone"></i> Call
                                 </a>
@@ -253,11 +253,11 @@ include "header.php";
                         </ul>
 
                         <div class="mt-auto">
-                            <a href="hematology-test" class="btn btn-outline-primary w-100 mb-2">
+                            <a href="stool-test" class="btn btn-outline-primary w-100 mb-2">
                                 Read More
                             </a>
 
-                            <div class="d-flex d-lg-none gap-2">
+                            <div class="d-flex d-lg-none gap-2 connect-box">
                                 <a href="tel:+919892760973" class="btn button-primary w-50">
                                     <i class="fa fa-phone"></i> Call
                                 </a>
@@ -306,7 +306,7 @@ include "header.php";
                                 Read More
                             </a>
 
-                            <div class="d-flex d-lg-none gap-2">
+                            <div class="d-flex d-lg-none gap-2 connect-box">
                                 <a href="tel:+919892760973" class="btn button-primary w-50">
                                     <i class="fa fa-phone"></i> Call
                                 </a>
@@ -354,7 +354,7 @@ include "header.php";
                                 Read More
                             </a>
 
-                            <div class="d-flex d-lg-none gap-2">
+                            <div class="d-flex d-lg-none gap-2 connect-box">
                                 <a href="tel:+919892760973" class="btn button-primary w-50">
                                     <i class="fa fa-phone"></i> Call
                                 </a>
@@ -402,7 +402,7 @@ include "header.php";
                                 Read More
                             </a>
 
-                            <div class="d-flex d-lg-none gap-2">
+                            <div class="d-flex d-lg-none gap-2 connect-box">
                                 <a href="tel:+919892760973" class="btn button-primary w-50">
                                     <i class="fa fa-phone"></i> Call
                                 </a>
@@ -450,7 +450,7 @@ include "header.php";
                                 Read More
                             </a>
 
-                            <div class="d-flex d-lg-none gap-2">
+                            <div class="d-flex d-lg-none gap-2 connect-box">
                                 <a href="tel:+919892760973" class="btn button-primary w-50">
                                     <i class="fa fa-phone"></i> Call
                                 </a>
@@ -498,7 +498,7 @@ include "header.php";
                                 Read More
                             </a>
 
-                            <div class="d-flex d-lg-none gap-2">
+                            <div class="d-flex d-lg-none gap-2 connect-box">
                                 <a href="tel:+919892760973" class="btn button-primary w-50">
                                     <i class="fa fa-phone"></i> Call
                                 </a>
@@ -546,7 +546,7 @@ include "header.php";
                                 Read More
                             </a>
 
-                            <div class="d-flex d-lg-none gap-2">
+                            <div class="d-flex d-lg-none gap-2 connect-box">
                                 <a href="tel:+919892760973" class="btn button-primary w-50">
                                     <i class="fa fa-phone"></i> Call
                                 </a>

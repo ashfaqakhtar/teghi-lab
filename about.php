@@ -7,17 +7,12 @@ include "header.php";
 
 
 
-<section class="banner-section">
-
-    <video class="hero-video" autoplay muted loop playsinline>
-        <source src="./videos/about-banner.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+<section class="banner-section-background">
 
     <div class="container hero-content">
         <div class="row">
             <div class="col-lg-7 col-md-12 hero-heading-box banner-box-position">
-                <h1 class="heading-1">About us</h1>
+                <h1 class="banner-heading">About us</h1>
                 <p class="sub-heading">Advanced clinical testing with precision, reliability, and care you can trust.
                 </p>
             </div>
@@ -76,6 +71,28 @@ include "header.php";
 <!-- About Section End -->
 
 
+
+
+
+<style>
+    .banner-section-background {
+
+        background: url('./images/about-banner-image.webp') no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .banner-section-background::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.45);
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(6px);
+        z-index: 1;
+    }
+</style>
 
 <?php
 include 'footer.php';

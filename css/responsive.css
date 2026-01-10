@@ -1,79 +1,90 @@
-
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .serviceSection .col-xl-5 {
         -ms-flex: 0 0 39.4%;
         flex: 0 0 39.4%;
         max-width: 39.4%;
     }
+
     .serviceSection .col-xl-7 {
         -ms-flex: 0 0 60.6%;
         flex: 0 0 60.6%;
         max-width: 60.6%;
     }
-    .header03 .mainMenu{
+
+    .header03 .mainMenu {
         background: #061b48;
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1600px){
-    .serviceLeft{
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .serviceLeft {
         padding: 116px 45px 134px 45px;
         height: 100%;
     }
-    .serviceLeft br{
+
+    .serviceLeft br {
         display: none;
     }
-    .imgDiv3{
+
+    .imgDiv3 {
         height: 100%;
     }
-    .imgDiv3 img{
+
+    .imgDiv3 img {
         max-width: inherit;
         height: 100%;
         width: auto;
     }
-    .aboutSkillContent{
+
+    .aboutSkillContent {
         padding-bottom: 120px;
     }
+
     .ctaSection03 {
         background: url(../images/bg/21.jpg) no-repeat center center / cover;
     }
 }
 
 
-@media(min-width: 1200px) and (max-width: 1440px){
-    .slider_02{
+@media(min-width: 1200px) and (max-width: 1440px) {
+    .slider_02 {
         padding: 0;
     }
-    .slider_02 .rev_slider_wrapper{
+
+    .slider_02 .rev_slider_wrapper {
         max-width: 1290px;
         margin: 0 auto;
         padding: 0 15px;
     }
-    .slider_02 .tp-caption{
+
+    .slider_02 .tp-caption {
         padding-left: 50px !important;
     }
 }
-@media(min-width: 1200px) and (max-width: 1300px){
+
+@media(min-width: 1200px) and (max-width: 1300px) {
     .riContent {
         padding: 40px 24px 43px 35px;
     }
 }
 
-@media (min-width: 1200px){
-    .mainMenu{
+@media (min-width: 1200px) {
+    .mainMenu {
         display: block !important;
     }
 }
 
 
-@media (max-width: 1199px){
-    .accessNav{
+@media (max-width: 1199px) {
+    .accessNav {
         border-left: none;
     }
-    .menuBtn{
+
+    .menuBtn {
         display: inline-flex;
     }
-    .mainMenu{
+
+    .mainMenu {
         position: absolute;
         left: 0;
         top: 100%;
@@ -85,43 +96,52 @@
         max-height: calc(100vh - 100px);
         overflow-y: auto;
     }
-    .header02 .mainMenu{
+
+    .header02 .mainMenu {
         padding: 30px 0;
         background: #392779;
         border-bottom: 3px solid #33d1cb;
         max-height: calc(100vh - 120px);
     }
-    .header03 .mainMenu{
+
+    .header03 .mainMenu {
         padding: 30px 0;
         background: #061b48;
         border-bottom: 3px solid #00d2ff;
         max-height: calc(100vh - 115px);
     }
-    .mainMenu > ul{
+
+    .mainMenu>ul {
         position: relative;
         display: block;
         margin: 0;
         padding: 0;
     }
-    .mainMenu > ul > li{
+
+    .mainMenu>ul>li {
         display: block;
         margin: 0 0 15px;
         padding: 0 30px;
     }
-    .header02 .mainMenu > ul > li{
+
+    .header02 .mainMenu>ul>li {
         padding: 0 30px;
     }
-    .header03 .mainMenu > ul > li{
+
+    .header03 .mainMenu>ul>li {
         padding: 0 30px;
         margin-right: 0;
     }
-    .mainMenu > ul > li:last-child{
+
+    .mainMenu>ul>li:last-child {
         margin: 0;
     }
-    .mainMenu > ul > li.menu-item-has-children > a:after{
+
+    .mainMenu>ul>li.menu-item-has-children>a:after {
         float: right;
     }
-    .mainMenu ul li ul{
+
+    .mainMenu ul li ul {
         position: relative;
         left: auto;
         top: auto;
@@ -139,280 +159,358 @@
         -moz-transition: none;
         -webkit-transition: none;
     }
-    .header02 .mainMenu ul li ul{
+
+    .header02 .mainMenu ul li ul {
         border: none;
         background: transparent;
     }
-    .mainMenu ul li ul li ul{
+
+    .mainMenu ul li ul li ul {
         left: 0;
     }
-    .mainMenu > ul ul li.menu-item-has-children:after{
+
+    .mainMenu>ul ul li.menu-item-has-children:after {
         content: "\f107";
         right: 0;
     }
-    .sidebar{
+
+    .sidebar {
         padding: 0;
     }
-    .sidebar.sidebarLeft{
+
+    .sidebar.sidebarLeft {
         padding-right: 0;
         margin-bottom: 50px;
     }
-    .contactInfo{
+
+    .contactInfo {
         padding-right: 0;
     }
-    .appointmentForm{
+
+    .appointmentForm {
         margin-left: 0;
     }
-    .imageBox01{
+
+    .imageBox01 {
         display: block;
         padding: 0 0 50px;
     }
-    .imageBox01 img{
+
+    .imageBox01 img {
         width: 100%;
         height: auto;
         margin: 0 0 30px;
         border-radius: 4px 4px 0 0;
     }
-    .imageBox01 h3 br{
+
+    .imageBox01 h3 br {
         display: none;
     }
-    .imgBoxContent{
+
+    .imgBoxContent {
         padding: 0 30px;
     }
+
     .ctaSection03 {
         background: url(../images/bg/21.jpg) no-repeat center center / cover;
     }
+
     .sidebar.sidebarRight,
     .sidebar.sidebarLeft {
         padding-left: 0;
         padding-right: 0;
     }
-    .sidebar.sidebarLeft{
+
+    .sidebar.sidebarLeft {
         margin-top: 0;
     }
+
     .blogList2Col .newsItem {
         margin: 0 0 35px;
     }
-    .sidebar.lsbSidebar{
+
+    .sidebar.lsbSidebar {
         padding-left: 0;
         padding-right: 0;
         margin: 0 0 40px;
     }
 }
 
-@media (min-width: 992px) and (max-width: 1199px){
-    .slider_02{
+@media (min-width: 992px) and (max-width: 1199px) {
+    .slider_02 {
         padding: 0;
     }
-    .slider_02 .rev_slider_wrapper{
+
+    .slider_02 .rev_slider_wrapper {
         max-width: 960px;
         margin: 0 auto;
         padding: 0 15px;
     }
+
     .serviceSection .col-xl-5 {
         padding-right: 0;
     }
-    .serviceArea{
+
+    .serviceArea {
         padding-right: 0;
     }
-    .ss01Content{
+
+    .ss01Content {
         padding-right: 55px;
     }
-    .serviceSection3 .ss01Content{
+
+    .serviceSection3 .ss01Content {
         padding: 26px 40px 44px 25px;
     }
-    .iconBox01{
+
+    .iconBox01 {
         max-width: 70%;
         margin-bottom: 30px;
     }
-    .iconBox01.ib01Last{
+
+    .iconBox01.ib01Last {
         margin-bottom: 0;
     }
-    .expCounter{
+
+    .expCounter {
         left: -96px;
     }
-    .testCatItem{
+
+    .testCatItem {
         padding: 40px 15px 40px 15px;
     }
-    .wcuContent{
+
+    .wcuContent {
         padding: 67px 70px 94px 70px;
     }
-    .subscribeForm{
+
+    .subscribeForm {
         padding-left: 45px;
         padding-right: 45px;
     }
-    .sfLeft{
+
+    .sfLeft {
         padding-right: 0;
     }
-    .testingContent{
+
+    .testingContent {
         padding-left: 0;
     }
-    .testingContent .secTitle{
+
+    .testingContent .secTitle {
         font-size: 38px;
         line-height: 50px;
     }
-    .testingContent p br{
+
+    .testingContent p br {
         display: none;
     }
-    .expCounter2{
+
+    .expCounter2 {
         width: 165px;
         z-index: 2;
     }
-    .riContent{
+
+    .riContent {
         padding-right: 30px;
     }
-    .wdContent .secTitle{
+
+    .wdContent .secTitle {
         font-size: 38px;
         line-height: 50px;
     }
-    .wdContent{
+
+    .wdContent {
         padding: 71px 45px 90px 44px;
     }
-    .newsItem2{
+
+    .newsItem2 {
         padding: 33px 15px 27px 15px;
     }
-    .serviceSection2 .labCard{
+
+    .serviceSection2 .labCard {
         height: 100%;
         overflow: hidden;
     }
-    .labCard img{
+
+    .labCard img {
         width: 100%;
         object-fit: cover;
         height: 100%;
     }
-    .serviceSection2 .secTitle2{
+
+    .serviceSection2 .secTitle2 {
         padding: 0;
     }
-    .ss02Content{
+
+    .ss02Content {
         padding-right: 53px;
         padding-left: 25px;
     }
-    .factSection3 .secTitle2{
+
+    .factSection3 .secTitle2 {
         font-size: 28px;
         line-height: 38px;
     }
-    .gallerySLiderWrap{
+
+    .gallerySLiderWrap {
         padding-right: 130px;
     }
-    .vGalleryThumbWrap{
+
+    .vGalleryThumbWrap {
         width: 100px;
         top: 50%;
         transform: translateY(-50%);
         -moz-transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
     }
-    .gsThumbItem{
+
+    .gsThumbItem {
         width: 100%;
         height: auto;
     }
-    .ppFeatures{
+
+    .ppFeatures {
         padding-right: 40px;
     }
-    .ctaTitle2{
+
+    .ctaTitle2 {
         font-size: 28px;
         line-height: 36px;
     }
-    .imgDiv3{
+
+    .imgDiv3 {
         height: 100%;
     }
-    .imgDiv3 img{
+
+    .imgDiv3 img {
         max-width: inherit;
         height: 100%;
         width: auto;
     }
-    .aboutSkillContent{
+
+    .aboutSkillContent {
         padding-bottom: 120px;
     }
-    .lab_content{
+
+    .lab_content {
         padding-top: 0;
     }
+
     .slider_02 .sliderBtn2,
-    .slider_02 .tp-caption.heebo{
+    .slider_02 .tp-caption.heebo {
         position: relative;
         left: 20px;
     }
+
     .lpSingle h3 {
         font-size: 16px;
         line-height: 20px;
     }
+
     .niDetails h3 {
         font-size: 18px;
         line-height: 24px;
     }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
     .testimonialSection2:before {
         background-position: top right;
     }
+
     .tmLeft .secSubTitle3 {
         color: #2e2e2e;
         text-align: center;
     }
+
     .tmLeft .secTitle {
         color: #392779;
         text-align: center;
     }
+
     .testimonialSection2 {
         padding: 250px 0 80px;
     }
+
     .tmArrows {
         justify-content: center;
         margin: 0 0 40px;
     }
+
     .tmLeft .secSubTitle3:before {
         left: auto;
         margin: 0 -20px;
     }
 
-    .hero-content{
+    .hero-content {
         margin-top: 230px !important;
     }
-    .hero-section-btn{
+
+    .hero-section-btn {
         margin-bottom: 50px !important;
     }
-    
+
 }
 
 /*------------------------------------------------------------------------------------
 / 3. Responsive For Tab Device
 /--------------------------------------------------------------------------------------*/
-@media (min-width: 768px) and (max-width: 991px){
-    .expCounter{
+@media (min-width: 768px) and (max-width: 991px) {
+    .expCounter {
         left: 50px;
     }
-    .ctaContent{
+
+    .ctaContent {
         padding-top: 70px;
     }
-    .ctaContent .secTitle{
+
+    .ctaContent .secTitle {
         font-size: 38px;
         line-height: 50px;
     }
-    .tmcsItem p{
+
+    .tmcsItem p {
         width: 70%;
     }
-    .team_content blockquote:before{
+
+    .team_content blockquote:before {
         left: 30px;
     }
+
     .team_content blockquote {
         padding-right: 30px;
         padding-bottom: 36px;
         margin-bottom: 0;
         padding-left: 100px;
     }
+
+    .hero-section {
+        height: 100% !important;
+    }
+
+    .hero-banner-contact {
+        padding-bottom: 40px !important;
+    }
+
+    .serviceSlider.owl-carousel .owl-nav {
+        left: 631px !important;
+    }
 }
 
 /*------------------------------------------------------------------------------------
 / 5. Comon in Tab & Mobile
 /--------------------------------------------------------------------------------------*/
-@media (max-width: 991px){
-    .newsItem{
+@media (max-width: 991px) {
+    .newsItem {
         margin: 0 0 30px;
     }
-    .footer01 .widget{
+
+    .footer01 .widget {
         margin: 0 0 30px;
     }
-    .sfLeft{
+
+    .sfLeft {
         min-height: 42px;
         display: flex;
         justify-content: flex-start;
@@ -420,222 +518,288 @@
         padding-top: 0;
         margin-bottom: 30px;
     }
-    .sfLeft img{
+
+    .sfLeft img {
         top: 0;
     }
-    .phoneCall{
+
+    .phoneCall {
         display: none;
     }
+
     .serviceSection .col-xl-5 {
         padding-right: 0;
     }
-    .serviceArea{
+
+    .serviceArea {
         padding-right: 0;
     }
-    .fact01{
+
+    .fact01 {
         margin: 0 0 30px;
     }
-    .factSection{
+
+    .factSection {
         padding-bottom: 167px;
     }
-    .aboutSection{
+
+    .aboutSection {
         background-position: right bottom;
     }
+
     .iconBox01 {
         display: inline-flex;
         justify-content: flex-start;
         align-items: center;
         margin: 0 0 30px;
     }
-    .iconBox01.ib01Last{
+
+    .iconBox01.ib01Last {
         margin-bottom: 0;
     }
-    .aboutContent{
+
+    .aboutContent {
         margin-bottom: 50px;
     }
-    .testingSection:after{
+
+    .testingSection:after {
         width: 100%;
     }
-    .testingContent{
+
+    .testingContent {
         padding-left: 0;
     }
-    .imgDiv2.text-right{
+
+    .imgDiv2.text-right {
         text-align: left !important;
         padding-top: 50px;
     }
+
     .appointmentContent h2 {
         font-size: 29px;
     }
-    .factSection2{
+
+    .factSection2 {
         padding-bottom: 125px;
     }
-    .whyDiffVid{
+
+    .whyDiffVid {
         position: relative;
     }
-    .weContentCol{
+
+    .weContentCol {
         padding: 0;
     }
-    .tmLeft .secTitle{
+
+    .tmLeft .secTitle {
         font-size: 38px;
         line-height: 50px;
     }
-    .tsItem{
+
+    .tsItem {
         padding-left: 0;
         padding-right: 0;
     }
-    .newsItem2{
+
+    .newsItem2 {
         margin: 0 0 30px;
     }
-    .slider_02{
+
+    .slider_02 {
         padding: 0;
     }
-    .slider_02 .rev_slider_wrapper{
+
+    .slider_02 .rev_slider_wrapper {
         max-width: 720px;
         margin: 0 auto;
         padding: 0 15px;
     }
-    .serviceSection2 .secTitle2{
+
+    .serviceSection2 .secTitle2 {
         margin: 0 0 30px;
     }
-    .vGalleryThumbWrap{
+
+    .vGalleryThumbWrap {
         top: 50%;
         transform: translateY(-50%);
         -moz-transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
     }
-    .gallerySLiderWrap{
+
+    .gallerySLiderWrap {
         margin-bottom: 30px;
     }
-    .wwaContent{
+
+    .wwaContent {
         padding-left: 0;
     }
-    .pricingPackage{
+
+    .pricingPackage {
         margin: 0 0 30px;
     }
-    .ctaImg{
+
+    .ctaImg {
         display: none;
     }
-    .tstiContent{
+
+    .tstiContent {
         padding: 33px 30px 46px 30px;
     }
-    .factSection3 .secTitle2:after{
+
+    .factSection3 .secTitle2:after {
         display: none;
     }
+
     .blogListPage,
     .blogGridPage {
         padding: 100px 0 90px;
     }
-    .factSection3 .secTitle2{
+
+    .factSection3 .secTitle2 {
         padding: 0;
         margin: 0 0 30px;
     }
-    .pricingPackage2{
+
+    .pricingPackage2 {
         margin: 0 0 30px;
     }
-    .aboutSkillContent{
+
+    .aboutSkillContent {
         padding: 120px 0;
     }
-    .singleTeam:after{
+
+    .singleTeam:after {
         background-size: 100% auto;
     }
-    .singleTeam{
+
+    .singleTeam {
         margin: 0 0 30px;
     }
-    .sidebar{
+
+    .sidebar {
         margin-top: 50px;
     }
-    .contactInfo{
+
+    .contactInfo {
         margin-bottom: 50px;
     }
-    .appointmentContent .listUL{
+
+    .appointmentContent .listUL {
         padding-right: 0;
     }
-    .imgDiv4{
+
+    .imgDiv4 {
         text-align: left;
         padding-top: 40px;
     }
+
     .col-lg-2.cusGCol {
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
     }
-    .gallInnerImg{
+
+    .gallInnerImg {
         margin: 0 0 40px;
     }
-    .lab_content.text-right{
+
+    .lab_content.text-right {
         text-align: left !important;
         margin-bottom: 50px;
         padding-top: 0;
     }
+
     .serviceSection2 {
         padding: 80px 0 110px;
     }
+
     .testimonialSection {
         padding: 100px 0 100px;
     }
+
     .testimonialSection .secTitle {
-        margin: 0 0 50px;   
+        margin: 0 0 50px;
         font-size: 36px;
         line-height: 46px;
     }
+
     .serviceSection3 {
         padding: 100px 0 50px;
     }
+
     .serviceProcessBar {
         margin: 20px 0 0;
     }
+
     .serviceDetailsPage {
         padding: 100px 0;
     }
+
     .researchBoxSection {
         padding: 100px 0 100px;
     }
+
     .researchItems .serv_meta h3 {
         font-size: 26px;
     }
+
     .researchItems .galleryMeta {
         flex-wrap: wrap;
     }
+
     .researchItems .GMSingle {
         width: 50%;
         padding: 35px 30px 32px;
     }
+
     .packageSection2 {
         padding: 110px 0 100px;
     }
+
     .teamMemberSection {
         padding: 90px 0 70px;
     }
+
     .teamSinglePage {
         padding: 90px 0;
     }
+
     .faqSection {
         padding: 100px 0 80px;
     }
+
     .aboutusSection2 {
         padding: 90px 0 100px;
     }
+
     .teamSection {
         padding: 110px 0 80px;
     }
+
     .blogDetailsPage {
         padding: 120px 0;
     }
+
     .factSection {
         padding: 150px 0 100px;
     }
+
     .aboutSection {
         padding: 80px 0 100px;
     }
+
     .categoriesSection {
         padding: 100px 0 100px;
     }
+
     .categoriesSection .secTitle {
         margin: 0 0 50px;
     }
+
     .aboutusSection {
         padding: 100px 0 100px;
     }
+
     .slider_02:after {
         width: 61%;
     }
@@ -645,181 +809,234 @@
 /*------------------------------------------------------------------------------------
 / 6. Responsive For Mobile Device
 --------------------------------------------------------------------------------------*/
-@media (max-width: 767px){
-    .logo{
+@media (max-width: 767px) {
+    .logo {
         width: auto;
         border-right: none;
     }
-    .accessNav{
+
+    .accessNav {
         padding-left: 0;
     }
-    .requestBTN{
+
+    .requestBTN {
         display: none;
     }
-    .serviceLeft{
+
+    .serviceLeft {
         padding: 116px 50px 134px 50px;
     }
-    .serviceLeft h2{
+
+    .serviceLeft h2 {
         font-size: 38px;
         line-height: 50px;
     }
-    .serviceLeft p br{
+
+    .serviceLeft p br {
         display: none;
     }
-    .serviceSlider.owl-carousel .owl-nav{
+
+    .serviceSlider.owl-carousel .owl-nav {
         left: auto;
         right: 0;
         top: -93px;
     }
-    .serviceSlider.owl-carousel .owl-nav button{
+
+    .serviceSlider.owl-carousel .owl-nav button {
         width: 45px;
         height: 45px;
         line-height: 48px;
     }
-    .serviceSlider.owl-carousel .owl-nav button.owl-prev{
+
+    .serviceSlider.owl-carousel .owl-nav button.owl-prev {
         margin-right: 5px;
     }
+
     .wcuContent {
         padding: 67px 35px 70px 35px;
     }
-    .whyChooseUs .halfSection{
+
+    .whyChooseUs .halfSection {
         display: none;
     }
-    .skillArea{
+
+    .skillArea {
         padding-left: 0;
     }
-    .tmcsItem p{
+
+    .tmcsItem p {
         width: 100%;
         padding: 0 30px;
     }
-    .ctaContent{
+
+    .ctaContent {
         margin: 0 0 50px;
     }
+
     .researchSection {
         padding: 100px 0 70px;
     }
+
     .blogSection3 {
         padding: 100px 0 80px;
     }
+
     .mapSection {
         padding: 60px 0 70px;
     }
+
     .whoWeAreSection {
         margin: 0 0 50px;
     }
+
     .contactFormSection {
         padding: 70px 0 80px;
     }
-    .subscribeForm{
+
+    .subscribeForm {
         padding: 31px 30px 32px;
     }
-    .sfLeft{
+
+    .sfLeft {
         padding-right: 0;
         padding-left: 71px;
     }
+
     .factSection3 {
         padding: 90px 0;
     }
-    .subscribeForm form input[type="email"]{
+
+    .subscribeForm form input[type="email"] {
         width: 100%;
         margin: 0 0 15px;
     }
-    .subscribeForm button{
+
+    .subscribeForm button {
         float: left;
     }
-    .siteInfo{
+
+    .siteInfo {
         text-align: center;
         padding-bottom: 32px;
     }
-    .siteSocial{
+
+    .siteSocial {
         justify-content: center;
         padding-top: 0;
     }
-    .siteSocial a:first-child{
+
+    .siteSocial a:first-child {
         margin-left: 0;
     }
-    .phoneCall2{
+
+    .phoneCall2 {
         display: none;
     }
-    .header02 .logo{
+
+    .header02 .logo {
         width: 40%;
     }
-    .header02 .logo img{
+
+    .header02 .logo img {
         height: 50px;
         width: auto;
     }
-    .testingContent .secTitle, .aboutContent2 .secTitle, .wdContent .secTitle{
+
+    .testingContent .secTitle,
+    .aboutContent2 .secTitle,
+    .wdContent .secTitle {
         font-size: 38px;
         line-height: 50px;
     }
-    .wdContent{
+
+    .wdContent {
         padding-left: 25px;
         padding-right: 25px;
     }
-    .singleProgress{
+
+    .singleProgress {
         margin-right: 0;
     }
-    .testimonialSection2:before{
+
+    .testimonialSection2:before {
         width: 0%;
     }
-    .tmLeft .secSubTitle3{
+
+    .tmLeft .secSubTitle3 {
         color: #2e2e2e;
     }
-    .tmLeft .secTitle{
+
+    .tmLeft .secTitle {
         color: #392779;
     }
-    .tmLeft{
+
+    .tmLeft {
         margin: 0 0 50px;
     }
-    .phoneCall4{
+
+    .phoneCall4 {
         display: none;
     }
-    .header03{
+
+    .header03 {
         background: #FFF;
     }
-    .serviceSection2 .secTitle2{
+
+    .serviceSection2 .secTitle2 {
         padding-right: 0;
     }
-    .serviceSection2{
+
+    .serviceSection2 {
         padding-left: 15px;
         padding-right: 15px;
     }
-    .labCard{
+
+    .labCard {
         height: 312px;
     }
-    .labCard img{
+
+    .labCard img {
         width: 100%;
         object-fit: cover;
         height: 100%;
     }
-    .fact02{
+
+    .fact02 {
         margin: 0 0 40px;
         text-align: center;
     }
+
     .fact02 i:after {
         left: auto;
         right: auto;
         margin: 0 -85px;
     }
-    .gallerySLiderWrap{
+
+    .gallerySLiderWrap {
         padding: 0;
     }
+
     .factSection {
         padding: 140px 0 100px;
     }
+
     .aboutSection {
         padding: 100px 0 120px;
     }
+
     .categoriesSection {
         padding: 100px 0 100px;
     }
+
     .testimonialSection {
         padding: 100px 0 125px;
     }
+
     .blogSection {
         padding: 100px 0 80px;
     }
-    .vGalleryThumbWrap{
+
+    .vGalleryThumbWrap {
         padding-top: 15px;
         position: relative;
         width: 290px;
@@ -830,86 +1047,110 @@
         -moz-transform: translateY(0);
         -webkit-transform: translateY(0);
     }
-    .gsThumbItem{
+
+    .gsThumbItem {
         width: 145px;
         padding: 0 15px;
     }
-    .gsThumbItem img{
+
+    .gsThumbItem img {
         width: 100%;
         height: auto;
     }
-    .pricingPackage{
+
+    .pricingPackage {
         padding-left: 30px;
         padding-right: 30px;
     }
-    .ppHeader h3 br{
+
+    .ppHeader h3 br {
         display: none;
     }
-    .ppFeatures{
+
+    .ppFeatures {
         padding: 0;
     }
-    .ppFeatures ul li{
+
+    .ppFeatures ul li {
         width: 100%;
     }
-    .team_content{
+
+    .team_content {
         padding-top: 50px;
     }
-    .niDetails{
+
+    .niDetails {
         padding-left: 15px;
         padding-right: 15px !important;
     }
-    .niList .blogFooter{
+
+    .niList .blogFooter {
         margin: 0 -15px 0;
     }
-    blockquote{
+
+    blockquote {
         padding: 98px 15px 53px 15px !important;
     }
-    blockquote:before{
+
+    blockquote:before {
         left: 15px !important;
     }
-    .newsContentArea{
+
+    .newsContentArea {
         padding-left: 14px;
         padding-right: 14px;
     }
-    .newsContentArea .niDate{
+
+    .newsContentArea .niDate {
         left: 15px;
     }
-    .sharePost{
+
+    .sharePost {
         float: left !important;
         margin-top: 0;
     }
-    .tagsArea span{
+
+    .tagsArea span {
         display: none;
     }
-    .tagsArea{
+
+    .tagsArea {
         display: block;
     }
+
     .pageBannerContent {
         text-align: center;
     }
+
     .pageBannerContent h2 {
         font-size: 36px;
         line-height: 45px;
     }
-    .appointmentContent{
+
+    .appointmentContent {
         margin-bottom: 50px;
     }
-    .ctaContent .secTitle{
+
+    .ctaContent .secTitle {
         font-size: 38px;
         line-height: 50px;
     }
-    .imageBox01{
+
+    .imageBox01 {
         margin: 0 0 30px;
     }
+
     .col-lg-2.cusGCol {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
         max-width: 50%;
     }
-    .single_comment{
+
+    .single_comment {
         padding-left: 0;
     }
-    .single_comment > img{
+
+    .single_comment>img {
         border-radius: 0;
         position: relative;
         left: auto;
@@ -917,34 +1158,44 @@
         margin: 0 0 25px;
         display: inline-block;
     }
-    .comment-list li ol li{
+
+    .comment-list li ol li {
         padding-left: 15px;
     }
+
     .ctaSection {
         padding: 20px 0 72px;
     }
+
     .appointmentSection {
         padding: 80px 0 100px;
     }
+
     .ctaContent2 h2 {
         font-size: 39px;
         line-height: 50px;
     }
+
     .ctaSection03 {
         padding: 50px 0 70px;
     }
+
     .researchBoxSection {
         padding: 110px 0 60px;
     }
+
     .packageSection2 {
         padding: 60px 0 65px;
     }
+
     .gallerypage {
         padding: 90px 0;
     }
+
     .faqSection2 {
         padding: 90px 0 96px;
     }
+
     .blogDetailsPage {
         padding: 100px 0 80px;
     }
@@ -953,44 +1204,108 @@
 /*------------------------------------------------------------------------------------
 / 7. Responsive For Mobile Device
 --------------------------------------------------------------------------------------*/
-@media (max-width: 575px){
+@media (max-width: 575px) {
     .tmcsItem p {
         font-size: 20px;
         line-height: 30px;
     }
-    
+
     .serviceDetailsPage {
         padding: 90px 0;
     }
+
     .ctaContent2 h2 {
         font-size: 26px;
         line-height: 36px;
     }
+
     .researchItems .GMSingle {
         width: 100%;
     }
+
     .researchItems .serv_meta {
         padding-left: 0;
     }
+
     .researchItems .serv_meta i {
         position: relative;
         margin: 0 0 25px;
         display: inline-block;
     }
+
     .col-lg-2.cusGCol {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .galleryDetailsPage .serv_meta h3{
+
+    .galleryDetailsPage .serv_meta h3 {
         font-size: 26px;
     }
+
     .contactFormSection .secTitle {
         font-size: 40px;
         line-height: 42px;
     }
+
     .mapSection .secTitle {
         font-size: 38px;
         line-height: 48px;
+    }
+
+    .hero-section {
+        height: 100% !important;
+    }
+
+    .hero-content {
+        margin-top: 0px !important;
+    }
+
+    .hero-banner-contact {
+        padding-bottom: 20px !important;
+    }
+
+    #age-field {
+        margin-top: 15px !important;
+    }
+
+    .banner-box-position {
+        padding: 200px 35px 150px 31px !important;
+    }
+
+    .banner-heading {
+        font-size: 40px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    .connect-box {
+        gap: 10px !important;
+    }
+
+    .test-list {
+        margin: 0px !important;
+    }
+
+    .book-apnmt-section-btn a {
+        width: 50% !important;
+    }
+
+    .appointment-info {
+        margin-bottom: 40px !important;
+    }
+
+    .price-info p {
+        color: #ffffff;
+        margin-bottom: 0px;
+        line-height: normal !important;
+        padding-bottom: 13px !important;
+    }
+
+    .heading-1 {
+        font-size: 40px !important;
+        font-weight: 700;
+        color: #1976D2;
+        line-height: normal !important;
     }
 }

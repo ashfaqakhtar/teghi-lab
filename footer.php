@@ -59,15 +59,20 @@
         </div>
     </div>
 
-    
-    <div class="mobile-sticky-cta d-lg-none">
+
+    <!-- Sticky Footer CTA (Mobile & Tablet Only) -->
+    <div class="mobile-sticky-cta d-lg-none" id="mobileStickyCTA">
         <a href="tel:+919892760973" class="btn button-primary w-50">
-            <i class="fa fa-phone"></i> Call Us
+            <i class="fa fa-phone"></i> Call
         </a>
         <a href="https://wa.me/919892760973" target="_blank" class="btn button-whatsapp w-50">
             <i class="fa-brands fa-whatsapp"></i> WhatsApp
         </a>
     </div>
+
+
+
+
 
 
 </footer>
@@ -110,6 +115,39 @@
     menuToggle.addEventListener("click", () => {
         mainMenu.classList.toggle("active");
         menuToggle.classList.toggle("open");
+    });
+</script>
+
+<script>
+    const stickyCTA = document.getElementById("mobileStickyCTA");
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 150) {
+            stickyCTA.classList.add("show");
+        } else {
+            stickyCTA.classList.remove("show");
+        }
+    });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.about-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            prevArrow: '<button type="button" class="slick-prev"><i class="fa-solid fa-chevron-left"></i></button>',
+            nextArrow: '<button type="button" class="slick-next"><i class="fa-solid fa-chevron-right"></i></button>',
+            centerPadding: '0px',
+            autoplay: true,
+            autoplaySpeed: 3000,
+            arrows: true,
+            dots: true,
+            adaptiveHeight: false
+        });
     });
 </script>
 

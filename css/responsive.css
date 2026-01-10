@@ -1257,6 +1257,9 @@
         height: 100% !important;
     }
 
+    .hero-content-home-banner {
+        margin-top: 200px !important;
+    }
     .hero-content {
         margin-top: 0px !important;
     }

@@ -64,6 +64,14 @@
     background: #ffffff;
     z-index: 9999;
     box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.15);
+
+    /* hidden initially */
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.mobile-sticky-cta.show {
+    transform: translateY(0);
 }
 
 
@@ -6283,6 +6291,12 @@ blockquote p {
 
 /* Content */
 .hero-content {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+}
+
+.hero-content-home-banner {
     position: relative;
     z-index: 3;
     color: #fff;

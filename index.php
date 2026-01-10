@@ -13,8 +13,8 @@ include "header.php";
         Your browser does not support the video tag.
     </video>
 
-    <div class="container hero-content">
-        <div class="row">
+    <div class="container  hero-content-home-banner">
+        <div class="row ">
             <div class="col-lg-7 col-md-12 hero-heading-box">
                 <h1 class="heading-1">Accurate Diagnostics. Trusted Care.</h1>
                 <p class="sub-heading">Advanced clinical testing with precision, reliability, and care you can trust.

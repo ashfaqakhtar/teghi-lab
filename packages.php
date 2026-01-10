@@ -181,18 +181,18 @@ include "header.php";
                 </div>
             </div>
 
-
+            <!-- Urine  -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card lft-card h-100">
                     <div class="card-body d-flex flex-column">
 
                         <!-- Test Category Title -->
-                        <h5 class="card-title">Hematology Test</h5>
+                        <h5 class="card-title">Urine Test</h5>
 
                         <!-- Meta Info -->
                         <div class="mb-2 text-muted small">
-                            <p class="mb-1 list-font"><strong>Total Tests:</strong> 15</p>
-                            <p class="mb-1 list-font"><strong>Sample:</strong> Blood</p>
+                            <p class="mb-1 list-font"><strong>Total Tests:</strong> 11</p>
+                            <p class="mb-1 list-font"><strong>Sample:</strong> Urine</p>
                             <p class="mb-1 list-font"><strong>Fasting:</strong> Not Required</p>
                             <p class="mb-1 list-font"><strong>Test Price:</strong> 999/-</p>
                             <p class="mb-0 list-font"><strong>Report Time:</strong> Same Day / 24 Hours</p>
@@ -200,9 +200,56 @@ include "header.php";
 
                         <!-- Test List (Optional preview only) -->
                         <ul class="lft-list small mb-3">
-                            <li>CBC</li>
-                            <li>ESR</li>
-                            <li>Hb</li>
+                            <li>Urine Routine</li>
+                            <li>Urine Acetone</li>
+                            <li>Urine for bile salts and bile pigments</li>
+                        </ul>
+
+                        <div class="mt-auto">
+                            <a href="urine-test" class="btn btn-outline-primary w-100 mb-2">
+                                Read More
+                            </a>
+
+                            <div class="d-flex d-lg-none gap-2">
+                                <a href="tel:+919892760973" class="btn button-primary w-50">
+                                    <i class="fa fa-phone"></i> Call
+                                </a>
+                                <a href="https://wa.me/919892760973" target="_blank" class="btn button-whatsapp w-50">
+                                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                                </a>
+                            </div>
+
+                            <a href="contact" class="btn button-primary w-100 d-none d-lg-block">
+                                Book Now
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- stool test  -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card lft-card h-100">
+                    <div class="card-body d-flex flex-column">
+
+                        <!-- Test Category Title -->
+                        <h5 class="card-title">Stool Test</h5>
+
+                        <!-- Meta Info -->
+                        <div class="mb-2 text-muted small">
+                            <p class="mb-1 list-font"><strong>Total Tests:</strong> 02</p>
+                            <p class="mb-1 list-font"><strong>Sample:</strong> Stool</p>
+                            <p class="mb-1 list-font"><strong>Fasting:</strong> Not Required</p>
+                            <p class="mb-1 list-font"><strong>Test Price:</strong> 999/-</p>
+                            <p class="mb-0 list-font"><strong>Report Time:</strong> Same Day / 24 Hours</p>
+                        </div>
+
+                        <!-- Test List (Optional preview only) -->
+                        <ul class="lft-list small mb-3">
+                            <li>Stool Routine Examination </li>
+                            <li>Stool for Occult Blood</li>
                         </ul>
 
                         <div class="mt-auto">
@@ -229,17 +276,17 @@ include "header.php";
                 </div>
             </div>
 
-
+            <!-- Other Body Fluid Examination -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card lft-card h-100">
                     <div class="card-body d-flex flex-column">
 
                         <!-- Test Category Title -->
-                        <h5 class="card-title">Hematology Test</h5>
+                        <h5 class="card-title">Other Body Fluid Examination</h5>
 
                         <!-- Meta Info -->
                         <div class="mb-2 text-muted small">
-                            <p class="mb-1 list-font"><strong>Total Tests:</strong> 15</p>
+                            <p class="mb-1 list-font"><strong>Total Tests:</strong> 06</p>
                             <p class="mb-1 list-font"><strong>Sample:</strong> Blood</p>
                             <p class="mb-1 list-font"><strong>Fasting:</strong> Not Required</p>
                             <p class="mb-1 list-font"><strong>Test Price:</strong> 999/-</p>
@@ -248,13 +295,14 @@ include "header.php";
 
                         <!-- Test List (Optional preview only) -->
                         <ul class="lft-list small mb-3">
-                            <li>CBC</li>
-                            <li>ESR</li>
-                            <li>Hb</li>
+                            <li>CSF</li>
+                            <li>Pleural Fluid</li>
+                            <li>Pericardial Fluid</li>
+                            <li>Pericardial Fluid</li>
                         </ul>
 
                         <div class="mt-auto">
-                            <a href="hematology-test" class="btn btn-outline-primary w-100 mb-2">
+                            <a href="other-body-fluid-examin" class="btn btn-outline-primary w-100 mb-2">
                                 Read More
                             </a>
 
@@ -277,6 +325,245 @@ include "header.php";
                 </div>
             </div>
 
+            <!-- Micro Biology -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card lft-card h-100">
+                    <div class="card-body d-flex flex-column">
+
+                        <!-- Test Category Title -->
+                        <h5 class="card-title">Micro Biology Test</h5>
+
+                        <!-- Meta Info -->
+                        <div class="mb-2 text-muted small">
+                            <p class="mb-1 list-font"><strong>Total Tests:</strong> 03</p>
+                            <p class="mb-1 list-font"><strong>Sample:</strong> Blood</p>
+                            <p class="mb-1 list-font"><strong>Fasting:</strong> Not Required</p>
+                            <p class="mb-1 list-font"><strong>Test Price:</strong> 999/-</p>
+                            <p class="mb-0 list-font"><strong>Report Time:</strong> Same Day / 24 Hours</p>
+                        </div>
+
+                        <!-- Test List (Optional preview only) -->
+                        <ul class="lft-list small mb-3">
+                            <li>Routine Culture and Sensitivity</li>
+                            <li>Blood Culture</li>
+                            <li>AFF Culture</li>
+                        </ul>
+
+                        <div class="mt-auto">
+                            <a href="mictobiology-test" class="btn btn-outline-primary w-100 mb-2">
+                                Read More
+                            </a>
+
+                            <div class="d-flex d-lg-none gap-2">
+                                <a href="tel:+919892760973" class="btn button-primary w-50">
+                                    <i class="fa fa-phone"></i> Call
+                                </a>
+                                <a href="https://wa.me/919892760973" target="_blank" class="btn button-whatsapp w-50">
+                                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                                </a>
+                            </div>
+
+                            <a href="contact" class="btn button-primary w-100 d-none d-lg-block">
+                                Book Now
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Infectious Markers -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card lft-card h-100">
+                    <div class="card-body d-flex flex-column">
+
+                        <!-- Test Category Title -->
+                        <h5 class="card-title">Infectious Markers Test</h5>
+
+                        <!-- Meta Info -->
+                        <div class="mb-2 text-muted small">
+                            <p class="mb-1 list-font"><strong>Total Tests:</strong> 14</p>
+                            <p class="mb-1 list-font"><strong>Sample:</strong> Blood</p>
+                            <p class="mb-1 list-font"><strong>Fasting:</strong> Not Required</p>
+                            <p class="mb-1 list-font"><strong>Test Price:</strong> 999/-</p>
+                            <p class="mb-0 list-font"><strong>Report Time:</strong> Same Day / 24 Hours</p>
+                        </div>
+
+                        <!-- Test List (Optional preview only) -->
+                        <ul class="lft-list small mb-3">
+                            <li>HIV I & II</li>
+                            <li>HIV Western Blot</li>
+                            <li>Cytomegalovirus (CMV) IGG</li>
+                        </ul>
+
+                        <div class="mt-auto">
+                            <a href="infectious-markers" class="btn btn-outline-primary w-100 mb-2">
+                                Read More
+                            </a>
+
+                            <div class="d-flex d-lg-none gap-2">
+                                <a href="tel:+919892760973" class="btn button-primary w-50">
+                                    <i class="fa fa-phone"></i> Call
+                                </a>
+                                <a href="https://wa.me/919892760973" target="_blank" class="btn button-whatsapp w-50">
+                                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                                </a>
+                            </div>
+
+                            <a href="contact" class="btn button-primary w-100 d-none d-lg-block">
+                                Book Now
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hormone Test -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card lft-card h-100">
+                    <div class="card-body d-flex flex-column">
+
+                        <!-- Test Category Title -->
+                        <h5 class="card-title">Hormone Test</h5>
+
+                        <!-- Meta Info -->
+                        <div class="mb-2 text-muted small">
+                            <p class="mb-1 list-font"><strong>Total Tests:</strong> 18</p>
+                            <p class="mb-1 list-font"><strong>Sample:</strong> Blood</p>
+                            <p class="mb-1 list-font"><strong>Fasting:</strong> Not Required</p>
+                            <p class="mb-1 list-font"><strong>Test Price:</strong> 999/-</p>
+                            <p class="mb-0 list-font"><strong>Report Time:</strong> Same Day / 24 Hours</p>
+                        </div>
+
+                        <!-- Test List (Optional preview only) -->
+                        <ul class="lft-list small mb-3">
+                            <li>T3 Total</li>
+                            <li>T4 Total</li>
+                            <li>TSH</li>
+                        </ul>
+
+                        <div class="mt-auto">
+                            <a href="hormone-test" class="btn btn-outline-primary w-100 mb-2">
+                                Read More
+                            </a>
+
+                            <div class="d-flex d-lg-none gap-2">
+                                <a href="tel:+919892760973" class="btn button-primary w-50">
+                                    <i class="fa fa-phone"></i> Call
+                                </a>
+                                <a href="https://wa.me/919892760973" target="_blank" class="btn button-whatsapp w-50">
+                                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                                </a>
+                            </div>
+
+                            <a href="contact" class="btn button-primary w-100 d-none d-lg-block">
+                                Book Now
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hepatitis Markers  -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card lft-card h-100">
+                    <div class="card-body d-flex flex-column">
+
+                        <!-- Test Category Title -->
+                        <h5 class="card-title">Hepatitis Markers</h5>
+
+                        <!-- Meta Info -->
+                        <div class="mb-2 text-muted small">
+                            <p class="mb-1 list-font"><strong>Total Tests:</strong> 13</p>
+                            <p class="mb-1 list-font"><strong>Sample:</strong> Blood</p>
+                            <p class="mb-1 list-font"><strong>Fasting:</strong> Not Required</p>
+                            <p class="mb-1 list-font"><strong>Test Price:</strong> 999/-</p>
+                            <p class="mb-0 list-font"><strong>Report Time:</strong> Same Day / 24 Hours</p>
+                        </div>
+
+                        <!-- Test List (Optional preview only) -->
+                        <ul class="lft-list small mb-3">
+                            <li>Hepatitis B Surface</li>
+                            <li>Antigen (Hbs Ag)</li>
+                            <li>Anti HBS (Antibody to HBS Ag)</li>
+                        </ul>
+
+                        <div class="mt-auto">
+                            <a href="hepatitis-markers" class="btn btn-outline-primary w-100 mb-2">
+                                Read More
+                            </a>
+
+                            <div class="d-flex d-lg-none gap-2">
+                                <a href="tel:+919892760973" class="btn button-primary w-50">
+                                    <i class="fa fa-phone"></i> Call
+                                </a>
+                                <a href="https://wa.me/919892760973" target="_blank" class="btn button-whatsapp w-50">
+                                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                                </a>
+                            </div>
+
+                            <a href="contact" class="btn button-primary w-100 d-none d-lg-block">
+                                Book Now
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Profiles Test -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card lft-card h-100">
+                    <div class="card-body d-flex flex-column">
+
+                        <!-- Test Category Title -->
+                        <h5 class="card-title">Profiles Test</h5>
+
+                        <!-- Meta Info -->
+                        <div class="mb-2 text-muted small">
+                            <p class="mb-1 list-font"><strong>Total Tests:</strong> 14</p>
+                            <p class="mb-1 list-font"><strong>Sample:</strong> Blood</p>
+                            <p class="mb-1 list-font"><strong>Fasting:</strong> Not Required</p>
+                            <p class="mb-1 list-font"><strong>Test Price:</strong> 999/-</p>
+                            <p class="mb-0 list-font"><strong>Report Time:</strong> Same Day / 24 Hours</p>
+                        </div>
+
+                        <!-- Test List (Optional preview only) -->
+                        <ul class="lft-list small mb-3">
+                            <li>Triple Marker Test</li>
+                            <li>Complete Pre-operative</li>
+                            <li>Complete Prenatal</li>
+                        </ul>
+
+                        <div class="mt-auto">
+                            <a href="profiles-test" class="btn btn-outline-primary w-100 mb-2">
+                                Read More
+                            </a>
+
+                            <div class="d-flex d-lg-none gap-2">
+                                <a href="tel:+919892760973" class="btn button-primary w-50">
+                                    <i class="fa fa-phone"></i> Call
+                                </a>
+                                <a href="https://wa.me/919892760973" target="_blank" class="btn button-whatsapp w-50">
+                                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                                </a>
+                            </div>
+
+                            <a href="contact" class="btn button-primary w-100 d-none d-lg-block">
+                                Book Now
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
